@@ -1,0 +1,87 @@
+
+
+.logo{
+    text-shadow: 5px 5px 5px gray;
+    color: #f3f8fff8;
+    font-size: 15px;
+}
+header ul.menu>li>ul{
+    position: absolute;
+}
+
+
+*{
+    background: #ccccff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+header {
+ 
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    padding:12px 50px;
+    height: 100px;
+    align-items: center;
+}
+.logo {
+    flex: 100px;
+    display:flex;
+}
+.menu {
+    display: flex;
+    font-size: 20px;
+    flex : 3;
+   
+}
+.menu > li {
+    display: flex;
+    padding: 0 12px;
+}
+.menu > li a {
+    margin-top: auto;
+    text-shadow: 5px 5px 5px grey;
+    color: black;
+    font-size: 20px;
+     font-weight:bold;
+     position: relative;
+}
+.others {
+    flex: 1;
+    display: flex;
+}
+.others > li {
+    padding: 0 12px;
+}
+.others > li:first-child {
+    position: relative;
+}
+
+.others > li:first-child input {
+    margin-top: 10px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid  #333;
+}
+.others > li:first-child i {
+    position: absolute;
+    right: 10px;
+}
+h2{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
